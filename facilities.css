@@ -1,0 +1,26 @@
+.facilities{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    align-content: center;
+    
+}
+
+.fac_images{
+    display: flex;
+    width: 100%;
+    gap:40px;
+}
+.reception{
+    flex: 1;
+    padding-left: 60px;
+}
+
+.room1{
+    flex:1;
+}
+
+.room2{
+    flex:1;
+    padding-right: 60px;
+}

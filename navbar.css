@@ -1,0 +1,166 @@
+
+.header_container{
+    display: flex;
+    width: 100%;
+}
+
+.topnav a {
+    flex: 2;
+    background-color: #f0f0f0;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav a:hover{
+    color: red;
+}
+.topnav a.active{
+    color: red;
+}
+
+.logo-div{
+    flex: 1; 
+    background-color: #f0f0f0;
+    padding-right: 480px;
+    padding-left: 30px;
+}
+
+.doctor{
+    width: 95vw;
+    position: relative;
+    padding-left: 20px;
+    
+}
+.title_main{
+    position:absolute;
+    top:50%;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 10%;
+}
+.main_bkgtab{
+    display: flex;
+}
+
+.bookingtab{
+    position:absolute;
+    
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width:15%;
+    top:70%;
+    left:10%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.form_container{
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    width:70%;
+    position:absolute;
+    top:85%;
+    left: 13%;
+    background-color:white;
+    box-shadow: #f0f0f0;
+    
+}
+.bookappttext{
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.symbol{
+    background-color: greenyellow;
+}
+
+.detailsForm{
+    display: flex;
+    padding-left: 10px;
+    
+    
+}
+.name{
+    flex:1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width:30%;
+    
+}
+.phnumber{
+    flex:1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.date{
+    flex:1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown{
+    display:flex;
+}
+.dd1{
+    flex:1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding-left: 20px;
+}
+.dd2{
+    flex:1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bookappt{
+    flex:1;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.depart_container{
+    display:flex;
+}

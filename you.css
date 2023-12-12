@@ -1,0 +1,25 @@
+.heading{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.you_img{
+    display: flex;
+    width: 100%;
+    gap:40px;
+    
+}
+
+.eyes{
+    
+    flex: 1;
+padding-left: 60px;
+}
+.mask{
+    flex: 1;
+}
+.baby{
+    flex:1;
+    padding-right: 60px;
+}
