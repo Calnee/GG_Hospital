@@ -1,0 +1,93 @@
+.footer_container{
+    background-color:rgb(249, 252, 252) ;
+}
+
+
+.footer1{
+    display: flex;
+    width: 100%;
+    height:300px;
+    background-color: rgb(249, 252, 252);
+    gap:40px;
+
+}
+
+.logo_container{
+    flex:1;
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+
+.logo_text{
+    margin-top: 30px;
+}
+
+.about_gg{
+    flex: 1;
+    margin-top: 160px;
+    margin-left: 150px;
+}
+
+.legal{
+    flex:1;
+    margin-top: 160px;
+}
+
+.footer2{
+    display: flex;
+    width:100%;
+    margin-top: 60px;
+    gap:20px;
+    padding-top: 10px;
+    background-color: rgb(249, 252, 252);
+    
+}
+
+.address{
+    flex:1;
+
+}
+.bi {
+
+    margin-left: 90px;
+}
+.add_text{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.number{
+    flex:1;
+}
+.numb_text{
+    margin-left: 120px;
+   
+}
+
+
+.email{
+    flex:1;
+}
+
+.contact_icon{
+    flex:1;
+    align-items: center; 
+   
+}
+.contact_icon > div {
+    display: inline-block; /* Display divs in a row */
+    margin-right: 5px; /* Adjust spacing between icons */
+}
+.linkd{
+    
+}
+.utube{
+   
+}
+.instgm{
+    
+}
+.fb{
+   
+}

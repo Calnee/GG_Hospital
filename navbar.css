@@ -3,13 +3,24 @@
     display: flex;
     width: 100%;
 }
+.topnav{
+    padding: 14px 16px;
+    flex:3;
+    background-color: #f0f0f0;
+}
+.logo-div{
+    flex: 1; 
+    background-color: #f0f0f0;
+    padding-left: 10px;
+}
 
 .topnav a {
-    flex: 2;
+    flex: 80%;
     background-color: #f0f0f0;
-    padding: 14px 16px;
+    margin-right: 25px;
     text-decoration: none;
     color: black;
+    padding-top: 20px;
 }
 
 .topnav a:hover{
@@ -19,12 +30,7 @@
     color: red;
 }
 
-.logo-div{
-    flex: 1; 
-    background-color: #f0f0f0;
-    padding-right: 480px;
-    padding-left: 30px;
-}
+
 
 .doctor{
     width: 95vw;
@@ -68,7 +74,7 @@
     top:85%;
     left: 13%;
     background-color:white;
-    box-shadow: #f0f0f0;
+    box-shadow: 5px 5px #f0f0f0;
     
 }
 .bookappttext{

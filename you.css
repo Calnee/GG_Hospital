@@ -4,6 +4,12 @@
     padding-bottom: 50px;
 }
 
+
+.you_container{
+    background-color: rgba(203, 248, 233, 0.548);
+    height: 1000px;
+    padding-top: 30px;
+}
 .you_img{
     display: flex;
     width: 100%;
@@ -22,4 +28,67 @@ padding-left: 60px;
 .baby{
     flex:1;
     padding-right: 60px;
+}
+.you_text{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.text1{
+    flex: 1;
+    margin-left: 60px;
+}
+.text2{
+    flex: 1;
+    margin-left: 30px;
+}
+.text3{
+    flex: 1;
+    margin-right: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+.subscribe{
+    display: flex;
+    background-color: white;
+    border: 1px white;
+    margin-top: 90px;
+    margin-bottom: 350px;
+    margin-right: 15px;
+    margin-left: 65px;
+    padding-top: 90px;
+    height: 300px;
+    padding-left: 30px;
+    width: 90%;
+    
+    
+}
+.sub_text{
+    flex:1;
+}
+.sub_button{
+    
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(44, 211, 155);
+   text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 330px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    width:180px;
+
+}
+.sub_text{
+    padding-left: 80px;
 }
